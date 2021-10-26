@@ -34,3 +34,19 @@ Copy remote to local:
 Get all changes from remote repo to working directory:
 
 > git pull origin [branch] (git merge + git push)
+
+New Branch:
+
+> git branch [newName] [oldBranch]
+
+List branches:
+
+> git branch
+
+Change branch:
+
+> git checkout [branch]
+
+New + change branch:
+
+> git checkout -b [new] [old]
